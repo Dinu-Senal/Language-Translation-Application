@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0D3D4"
+    tools:context=".DisplayEditPhrases">
+
+    <TextView
+        android:id="@+id/invisible_text"
+        android:layout_width="126dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/mainHeading_05"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignBottom="@id/invisible_text"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-100dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/heading03_edit_phrases"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="jelly_bean" />
+
+    <ListView
+        android:id="@+id/lv_editList"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_alignBottom="@id/mainHeading_05"
+        android:layout_marginBottom="-305dp"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

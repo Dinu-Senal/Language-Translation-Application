@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0D3D4"
+    tools:context=".LanguageSubscription">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mainHeading_04"
+                android:layout_width="386dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="@string/language_subscription"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#0BAB8B"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:targetApi="jelly_bean" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="130dp"
+                android:background="#1ABC9C"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mainHeading_04">
+
+                <CheckBox
+                    android:id="@+id/radio_Afrikaans"
+                    android:onClick="checkedAfrikaans"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/afrikaans"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Albanian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/albanian"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Arabic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/arabic"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Armenian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/armenian"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Azerbaijani"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/azerbaijani"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Bashkir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/bashkir"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Basque"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/basque"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Belarusian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/belarusian"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Bengali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/bengali"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Bosnian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/bosnian"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Bulgarian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/bulgarian"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Catalan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/catalan"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Central_Khmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/central_khmer"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Chinese_Simplified"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/chinese_simplified"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Chinese_Traditional"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/chinese_traditional"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Chuvash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/chuvash"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Croatian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/croatian"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Czech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/czech"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Danish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/danish"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/radio_Dutch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_margin="4dp"
+                    android:buttonTint="#F4D03F"
+                    android:layoutDirection="rtl"
+                    android:text="@string/dutch"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_add_phrases"
+                android:layout_width="250sp"
+                android:layout_height="60dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/custom_button_v3"
+                android:text="@string/update"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_addPhrases"
+                app:layout_constraintVertical_bias="0.012" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_update_message_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4D03F"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_correct_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_msg_updated"
+        android:textAllCaps="true"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</LinearLayout>

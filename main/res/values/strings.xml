@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Assessment_02_W1742312</string>
+
+    <string name="app_heading_name">s y n o n y m s</string>
+
+    <string name="btn_addphrase_name">  A d d  \u0020 \u0020 \u0020 \u0020
+                                        \u0020 \u0020\u0020 \u0020 \u0020
+                                        \u0020 \u0020 \u0020 P h r a s e s</string>
+
+    <string name="btn_displayphrase_name">D i s p l a y \u0020 \u0020 \u0020 \u0020
+                                        \u0020 \u0020\u0020 \u0020 \u0020
+                                        \u0020 \u0020 \u0020 P h r a s e s</string>
+    <string name="btn_editphrases_name">E d i t \u0020 \u0020 \u0020 \u0020
+                                        \u0020 \u0020\u0020 \u0020 \u0020
+                                        \u0020 \u0020 \u0020 P h r a s e s</string>
+    <string name="btn_lansub_name">L a n g u a g e\u0020 \u0020 \u0020 \u0020
+                                        \u0020 \u0020\u0020 \u0020 \u0020
+                                        \u0020 \u0020 \u0020Subscription</string>
+    <string name="btn_translate_name">Translate</string>
+
+    <string name="add_phrases_heading">Add Phrases</string>
+    <string name="hint_name">ENTER WORD OR A PHRASE</string>
+
+    <string name="btn_add_phrases_name">save</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_save">SAVE</string>
+    <string name="heading03_edit_phrases">Edit phrases</string>
+    <string name="toast_msg_updated">Updated</string>
+    <string name="toast_msg_data_successfully_inserted">Data Successfully Inserted</string>
+    <string name="toast_msg_deleted_from_the_database">Deleted From the Database</string>
+
+    <string name="dutch">Dutch</string>
+    <string name="danish">Danish</string>
+    <string name="czech">Czech</string>
+    <string name="croatian">Croatian</string>
+    <string name="chuvash">Chuvash</string>
+    <string name="chinese_traditional">Chinese (Traditional)</string>
+    <string name="chinese_simplified">Chinese (Simplified)</string>
+    <string name="central_khmer">Central Khmer</string>
+    <string name="catalan">Catalan</string>
+    <string name="bulgarian">Bulgarian</string>
+    <string name="bosnian">Bosnian</string>
+    <string name="bengali">Bengali</string>
+    <string name="belarusian">Belarusian</string>
+    <string name="basque">Basque</string>
+    <string name="bashkir">Bashkir</string>
+    <string name="azerbaijani">Azerbaijani</string>
+    <string name="armenian">Armenian</string>
+    <string name="arabic">Arabic</string>
+    <string name="albanian">Albanian</string>
+    <string name="afrikaans">Afrikaans</string>
+    <string name="update">Update</string>
+    <string name="display_translated_phrases">Translated Phrases</string>
+    <string name="refresh">Refresh</string>
+    <string name="display">Display</string>
+    <string name="btn_pronounce">Pronounce</string>
+    <string name="phrases_and_words">Phrases and Words</string>
+    <string name="home_button">home button</string>
+    <string name="language_subscription">Language Subscription</string>
+    <string name="translate">Translate</string>
+
+    <string-array name="languages_spinner">
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Arabic</item>
+        <item>Estonian</item>
+        <item>Japanese</item>
+    </string-array>
+
+</resources>

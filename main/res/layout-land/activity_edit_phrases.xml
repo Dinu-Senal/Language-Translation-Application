@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0D3D4"
+    tools:context=".EditPhrases">
+
+    <TextView
+        android:id="@+id/mainHeading_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/heading03_edit_phrases"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="jelly_bean" />
+
+    <EditText
+        android:id="@+id/editable_item"
+        android:layout_width="280dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="153dp"
+        android:background="@drawable/custom_edit_text_v2"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="353dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_v2"
+        android:text="@string/btn_delete"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/btnDelete"
+        android:background="@drawable/custom_button_v3"
+        android:text="@string/btn_save"
+        app:layout_constraintStart_toEndOf="@+id/editable_item"
+        app:layout_constraintTop_toBottomOf="@+id/mainHeading_03" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/btnDelete"
+        android:background="@drawable/custom_button_v1"
+        android:text="@string/display"
+        app:layout_constraintStart_toEndOf="@+id/btnSave"
+        app:layout_constraintTop_toBottomOf="@+id/mainHeading_03" />
+
+    <ImageButton
+        android:id="@+id/btn_home_v1"
+        android:layout_width="73dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/custom_button_v4"
+        android:contentDescription="@string/home_button"
+        android:src="@drawable/home_button_v1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toEndOf="@+id/btnDelete"
+        app:layout_constraintTop_toBottomOf="@+id/btnDisplay"
+        app:layout_constraintVertical_bias="0.25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

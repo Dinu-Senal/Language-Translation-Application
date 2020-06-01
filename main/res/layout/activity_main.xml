@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0D3D4"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mainHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="@string/app_heading_name"
+                android:textAllCaps="true"
+                android:textColor="#1A1A1D"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:targetApi="jelly_bean" />
+
+            <Button
+                android:id="@+id/btn_add_phrases"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/custom_button_v2"
+                android:padding="12sp"
+                android:text="@string/btn_addphrase_name"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mainHeading" />
+
+            <Button
+                android:id="@+id/btn_display_phrases"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/custom_button_v1"
+                android:padding="12sp"
+                android:text="@string/btn_displayphrase_name"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.81"
+                app:layout_constraintStart_toEndOf="@+id/btn_add_phrases"
+                app:layout_constraintTop_toBottomOf="@+id/mainHeading" />
+
+            <Button
+                android:id="@+id/btn_edit_phrases"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_button_v3"
+                android:padding="12sp"
+                android:text="@string/btn_editphrases_name"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_display_phrases" />
+
+            <Button
+                android:id="@+id/btn_lan_sub"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/custom_button_v1"
+                android:padding="0sp"
+                android:text="@string/btn_lansub_name"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_edit_phrases" />
+
+            <Button
+                android:id="@+id/btn_translate"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/custom_button_v2"
+                android:padding="12sp"
+                android:text="@string/btn_translate_name"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.81"
+                app:layout_constraintStart_toEndOf="@+id/btn_lan_sub"
+                app:layout_constraintTop_toBottomOf="@+id/btn_edit_phrases" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
